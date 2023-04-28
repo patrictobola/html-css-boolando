@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Generics */
+
+body {
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Utilities  */
+
+.flex {
+  display: flex;
+}
