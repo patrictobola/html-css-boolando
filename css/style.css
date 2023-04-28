@@ -60,6 +60,20 @@ nav > div {
 nav i {
   padding: 0 5px;
 }
+
+/* Main  */
+.row {
+  width: 100%;
+  padding-top: 50px;
+  height: 500px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: calc(100% / 3 - 40px);
+}
+
 /* Utilities  */
 
 .flex {
@@ -69,4 +83,10 @@ nav i {
 .container {
   width: 1400px;
   margin: 0 auto;
+}
+
+/* Debug */
+
+.debug {
+  border: 2px dashed black;
 }
