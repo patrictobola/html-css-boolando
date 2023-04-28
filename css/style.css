@@ -135,6 +135,31 @@ nav i {
   text-decoration: line-through;
 }
 
+/* Hover properties */
+
+.card-favourite:hover {
+  color: red;
+}
+
+img:hover[alt="Levi's tee"] {
+  content: url("../img/1b.webp");
+}
+img:hover[alt="Guess"] {
+  content: url("../img/2b.webp");
+}
+img:hover[alt="czf"] {
+  content: url("../img/3b.webp");
+}
+img:hover[alt="Levi's Shirt"] {
+  content: url("../img/4b.webp");
+}
+img:hover[alt="Maya Deluxe"] {
+  content: url("../img/5b.webp");
+}
+img:hover[alt="Esprit"] {
+  content: url("../img/6b.webp");
+}
+
 /* Footer  */
 
 footer {
