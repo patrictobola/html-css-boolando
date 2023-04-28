@@ -129,6 +129,8 @@ nav i {
   position: absolute;
   left: 0;
   bottom: 40px;
+  cursor: default;
+  user-select: none;
 }
 
 .final-prize {
