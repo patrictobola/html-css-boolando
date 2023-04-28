@@ -1,3 +1,8 @@
+/* Custom properties  */
+:root {
+  --orange: #ff6900;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -8,10 +13,60 @@
 
 body {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 
+header {
+  height: 80px;
+  background-color: var(--orange);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0px -1px 7px black;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/* Header */
+
+nav.flex {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+nav > div {
+  flex-basis: calc(100% / 3);
+  justify-content: center;
+}
+
+.nav-sex a {
+  margin-right: 15px;
+}
+
+.nav-logo > img {
+  height: 30px;
+}
+
+.nav-user-menu {
+  text-align: end;
+}
+
+nav i {
+  padding: 0 5px;
+}
 /* Utilities  */
 
 .flex {
   display: flex;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
 }
