@@ -149,23 +149,15 @@ nav i {
   color: red;
 }
 
-img:hover[alt="Levi's tee"] {
-  content: url("../img/1b.webp");
+.card-image .secondary-pic {
+  display: none;
 }
-img:hover[alt="Guess"] {
-  content: url("../img/2b.webp");
+
+.card-image:hover .main-pic {
+  display: none;
 }
-img:hover[alt="czf"] {
-  content: url("../img/3b.webp");
-}
-img:hover[alt="Levi's Shirt"] {
-  content: url("../img/4b.webp");
-}
-img:hover[alt="Maya Deluxe"] {
-  content: url("../img/5b.webp");
-}
-img:hover[alt="Esprit"] {
-  content: url("../img/6b.webp");
+.card-image:hover .secondary-pic {
+  display: block;
 }
 
 /* Footer  */
